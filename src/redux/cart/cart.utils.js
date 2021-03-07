@@ -7,5 +7,5 @@ export const AddItemToCart =(cartItems, cartItemToAdd) =>{
             :cartItem
             );
     }
-    return [...cartItems,{...cartItemToAdd,quanity:1}]
+    return [...cartItems,{...cartItemToAdd,quantity:1}]
 }
